@@ -1,0 +1,237 @@
+
+<!DOCTYPE html>
+<html>
+
+<body>
+    <!--setup-->
+    <body style="font-family:Garamond, serif;background: linear-gradient(to bottom, #000000 0%, #411436 100%);text-align: center;color:#ffffff"></body>
+    <!--Name and title-->
+    <h1 <b style="font-family:'Times New Roman';font-size:5vw;text-decoration: underline;"
+    >   Trey Floto   </b> </h1>
+    <h4 style=font-size:2vw>Computer Programer</h4>
+    <hr style="color:#ffffff"class="solid">
+
+    <!--Education-->
+    <h1 <b style="font-family:'Times New Roman';font-size:4vw;text-decoration: underline;"
+    >  Education   </b> </h1>
+    <p style=font-size:2vw>I am a senior of the IT programming class of 2023 at York County
+        School of Technology</p>
+    <hr style="color:#ffffff"class="solid">
+
+     <!--Experiance-->
+    <h1 <b style="font-family:'Times New Roman';font-size:4vw;text-decoration: underline;"
+    >  Experience   </b> </h1>
+    <p style=font-size:2vw>I have experience in a workplace like environment, under these conditions I have created documentation for my programming abilities.</p>
+    <a href="url">https://github.com/TFloto/docpacs2122</a>
+    <p style=font-size:2vw>I also am the Linux Teacher and Communications Officer for CyberPatriot</p>
+    <hr style="color:#ffffff"class="solid">
+
+
+    <!--Where you have worked-->
+    <h1 <b style="font-family:'Times New Roman';font-size:4vw;text-decoration: underline;"
+    >  Job Experience   </b> </h1>
+    <p style=font-size:2vw>I have been working at the Sign of the Horse Brewery since February 2022 as a waiter, busser, and server. I have become invaluable for the operations of the establishment.</p>
+    <hr style="color:#ffffff"class="solid">
+
+        <!--contacts-->
+    <h1 <b style="font-family:'Times New Roman';font-size:4vw"
+    >  Contact me at   </b> </h1>
+    <h1 <b style="font-size:1vw"
+    >  TAFloto@protonmail.com</b> </h1>
+</body>
+
+
+<!--slide-show Junk-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+</style>
+<body>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="MicrosoftTeams-image.png" style="height: 500px; width: auto;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="MicrosoftTeams-image (1).png" style="height: 500px; width: auto;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="MicrosoftTeams-image (2).png" style="height: 500px; width: auto;">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="owowhatsthis.jpg" style="height: 500px; width: auto;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="MicrosoftTeams-image (3).png" style="height: 500px; width: auto;">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="MicrosoftTeams-image (4).png" style="height: 500px; width: auto;">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="MicrosoftTeams-image.png" style="height: 100px; width: auto;" onclick="currentSlide(1)" alt="Me at a parking lot, in my casual outfit">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="MicrosoftTeams-image (1).png" style="height: 100px; width: auto;" onclick="currentSlide(2)" alt="Me on the cafiteria floor, in my casual outfit">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="MicrosoftTeams-image (2).png" style="height: 100px; width: auto;" onclick="currentSlide(3)" alt="Me, in a meme, in my casual outfit">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="owowhatsthis.jpg" style="height: 100px; width: auto;" onclick="currentSlide(4)" alt="Me in an arcade, in my not-casual outfit">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="MicrosoftTeams-image (3).png" style="height: 100px; width: auto;" onclick="currentSlide(5)" alt="Me (Left) in my casual outfit">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="MicrosoftTeams-image (4).png" style="height: 100px; width: auto;" onclick="currentSlide(6)" alt="Me (Right) in my casual outfit">
+    </div>
+  </div>
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+    
+</body>
+</html>
