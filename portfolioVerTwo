@@ -76,12 +76,11 @@ img {
 .prev,
 .next {
   cursor: pointer;
-  position: absolute;
   top: 40%;
   width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
+  padding: 5px;
+  margin-top: -0px;
+  color: rgb(255, 255, 255);
   font-weight: bold;
   font-size: 20px;
   border-radius: 0 3px 3px 0;
@@ -182,22 +181,22 @@ img {
 
   <div class="row">
     <div class="column">
-      <img class="demo cursor" src="MicrosoftTeams-image.png" style="height: 100px; width: auto;" onclick="currentSlide(1)" alt="Me at a parking lot, in my casual outfit">
+      <img class="demo cursor" src="MicrosoftTeams-image.png" style="height: 60px; width: auto;" onclick="currentSlide(1)" alt="Me at a parking lot, in my casual outfit">
     </div>
     <div class="column">
-      <img class="demo cursor" src="MicrosoftTeams-image (1).png" style="height: 100px; width: auto;" onclick="currentSlide(2)" alt="Me on the cafiteria floor, in my casual outfit">
+      <img class="demo cursor" src="MicrosoftTeams-image (1).png" style="height: 60px; width: auto;" onclick="currentSlide(2)" alt="Me on the cafiteria floor, in my casual outfit">
     </div>
     <div class="column">
-      <img class="demo cursor" src="MicrosoftTeams-image (2).png" style="height: 100px; width: auto;" onclick="currentSlide(3)" alt="Me, in a meme, in my casual outfit">
+      <img class="demo cursor" src="MicrosoftTeams-image (2).png" style="height: 60px; width: auto;" onclick="currentSlide(3)" alt="Me, in a meme, in my casual outfit">
     </div>
     <div class="column">
-      <img class="demo cursor" src="owowhatsthis.jpg" style="height: 100px; width: auto;" onclick="currentSlide(4)" alt="Me in an arcade, in my not-casual outfit">
+      <img class="demo cursor" src="owowhatsthis.jpg" style="height: 60px; width: auto;" onclick="currentSlide(4)" alt="Me in an arcade, in my not-casual outfit">
     </div>
     <div class="column">
-      <img class="demo cursor" src="MicrosoftTeams-image (3).png" style="height: 100px; width: auto;" onclick="currentSlide(5)" alt="Me (Left) in my casual outfit">
+      <img class="demo cursor" src="MicrosoftTeams-image (3).png" style="height: 60px; width: auto;" onclick="currentSlide(5)" alt="Me (Left) in my casual outfit">
     </div>    
     <div class="column">
-      <img class="demo cursor" src="MicrosoftTeams-image (4).png" style="height: 100px; width: auto;" onclick="currentSlide(6)" alt="Me (Right) in my casual outfit">
+      <img class="demo cursor" src="MicrosoftTeams-image (4).png" style="height: 60px; width: auto;" onclick="currentSlide(6)" alt="Me (Right) in my casual outfit">
     </div>
   </div>
 </div>
